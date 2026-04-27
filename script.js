@@ -81,4 +81,3 @@ function openProject(url, target = '_blank') {
 }
 
 
-

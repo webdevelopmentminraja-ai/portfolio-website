@@ -19,22 +19,23 @@
         <i class="fa-solid fa-bars"></i>
       </div>
 
-     <nav class="navbar">
-  <a href="#home" class="active">Home</a>
-  <a href="#about">About</a>
-  <a href="#education">Education</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>  <!-- ADD THIS -->
-  <a href="#contact">Contact</a>
-  <span class="active-nav"></span>
-</nav>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificate</a>
+        <a href="#contact">Contact</a>
+        <span class="active-nav"></span>
+      </nav>
     </header>
     <!-- home section -->
     <section class="home" id="home">
       <div class="home-content">
         <h1>Hi, I'M <span>Samreen sadiqa</span></h1>
         <div class="text-animate">
-        <h3>Frontend Developer</h3>
+          <h3>Frontend Developer</h3>
         </div>
         <p>
           Currently, I am improving my frontend development skills and learning
@@ -117,8 +118,10 @@
                   <i class="fa-solid fa-calendar-days"></i> 2021 - 2025
                 </div>
                 <h3>Matser Degree - University girls college dgree # No 1</h3>
-                <p>Currently pursuing degree and learning web development 
-along with academic studies.</p>
+                <p>
+                  Currently pursuing degree and learning web development along
+                  with academic studies.
+                </p>
               </div>
             </div>
           </div>
@@ -216,53 +219,122 @@ along with academic studies.</p>
         </div>
       </div>
     </section>
-<!-- Projects Section -->
-<section class="projects" id="projects">
-  <h2 class="heading">My <span>Projects</span></h2>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
 
-  <div class="projects-container">
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/Travel Website.png" alt="Travel Website" />
+          </div>
 
-    <!-- Project 1 -->
-    <div class="project-card">
-      <div class="project-image">
-        <img src="images/Travel Website.png" alt="Travel Website">
-      </div>
+          <div class="project-info">
+            <h3>Travel Website</h3>
+            <p>
+              Responsive travel website with modern UI design, booking system
+              and smooth animations.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://webdevelopmentminraja-ai.github.io/Travel-website/"
+                target="_blank"
+                class="project-btn github-btn"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
 
-      <div class="project-info">
-        <h3>Travel Website</h3>
-        <p>Responsive travel website with modern UI design, booking system and smooth animations.</p>
-        <div class="project-links">
-          <a href="https://webdevelopmentminraja-ai.github.io/Travel-website/" target="_blank" class="project-btn github-btn">GitHub</a>
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/Todo List App.png" alt="Todo App" />
+          </div>
+
+          <div class="project-info">
+            <h3>Todo List App</h3>
+            <p>
+              Todo list application using HTML CSS and JavaScript with clean UI.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://webdevelopmentminraja-ai.github.io/To-Do-List/"
+                target="_blank"
+                class="project-btn github-btn"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 3rd project--- -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/social-media.png"  />
+          </div>
+
+          <div class="project-info">
+            <h3>Social Media Website</h3>
+            <p>
+              Modern social media website with responsive design, clean user
+              interface, profile section, navigation menu and interactive layout
+              using HTML, CSS and JavaScript.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://webdevelopmentminraja-ai.github.io/social-media-/"
+                target="_blank"
+                class="project-btn github-btn"
+                >GitHub</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-   
-    <!-- Project 3 -->
-    <div class="project-card">
-      <div class="project-image">
-        <img src="images/Todo List App.png" alt="Todo App">
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <iframe
+          id="projectIframe"
+          src=""
+          width="100%"
+          height="500px"
+          frameborder="0"
+        ></iframe>
       </div>
-
-      <div class="project-info">
-        <h3>Todo List App</h3>
-        <p>Todo list application using HTML CSS and JavaScript with clean UI.</p>
-        <div class="project-links">
-<a href="https://webdevelopmentminraja-ai.github.io/To-Do-List/" target="_blank" class="project-btn github-btn">GitHub</a>      </div>
     </div>
 
-  </div>
-</section>
-
-<!-- Project Modal -->
-<div id="projectModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <iframe id="projectIframe" src="" width="100%" height="500px" frameborder="0"></iframe>
-  </div>
-</div>
-
-</section>
+    <!-- Simple Certificate Section -->
+    <section class="certificate-sec" id="certificates">
+      <h2 class="heading">My <span>Certificate</span></h2>
+      <div class="cert-container">
+        <div class="cert-card">
+          <div class="cert-image">
+            <img src="images/certificate.png" alt="Certificate" />
+          </div>
+          <div class="cert-info">
+            <h3>Frontend Development</h3>
+            <p>
+              Certified in modern frontend development with HTML, CSS &
+              JavaScript
+            </p>
+            <div class="cert-date">
+              <i class="fa-solid fa-calendar-days"></i>
+              <span>Issued: 2026</span>
+            </div>
+            <div class="cert-links">
+              <a href="images/certificate.png" class="cert-btn" target="_blank">
+                View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- contact section  -->
     <section class="contact" id="contact">
       <h2 class="heading">contact <span>me!</span></h2>
@@ -304,6 +376,7 @@ along with academic studies.</p>
         </div>
       </form>
     </section>
+
     <!-- footer section  -->
     <footer class="footer">
       <div class="footer-text">
